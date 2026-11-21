@@ -9,8 +9,9 @@ System under test: Django Library, Orders module (lend a book, return a book).
 | --- | --- |
 | Upstream repository | https://github.com/Arezzon/Library-Django |
 | Licence | MIT (`LICENSE` file in the repository root) |
-| Baseline commit hash | 41387855b3154761925b4eb8a00660e7e661a5c8 |
-| Baseline recorded on | `<DATE>` by Maha |
+| Baseline commit hash | '41387855b3154761925b4eb8a00660e7e661a5c8' |
+| Team commit adding documentation and scripts | '1885ca9' |
+| Baseline recorded on | 2026-11-21 by Maha |
 | Rule | Do not `git pull` from upstream after the hash is recorded |
 
 Do not rely on the hash seen on GitHub today. Use the hash from the team's own clone.
