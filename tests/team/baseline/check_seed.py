@@ -14,7 +14,9 @@ failures = []
 
 def check(label, actual, expected):
     ok = actual == expected
-    print(("PASS  " if ok else "FAIL  ") + f"{label}: expected {expected}, got {actual}")
+    print(
+        ("PASS  " if ok else "FAIL  ") + f"{label}: expected {expected}, got {actual}"
+    )
     if not ok:
         failures.append(label)
 
