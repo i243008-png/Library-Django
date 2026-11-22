@@ -96,13 +96,13 @@ two members' areas can be added here by them.
 | --- | --- | --- |
 | Lend Directly, days = 0 | `Value must be greater than or equal to 1` | 01 |
 | Lend Directly, days = 31 | `Value must be less than or equal to 30` | 02 |
-| Lend Directly, days = 1 (Bob, Animal Farm) | `Lent 'Animal Farm' to Bob, due 23 Nov 2026` | 03 |
-| Lend Directly, days = 30 (Alice, Animal Farm) | `Lent 'Animal Farm' to Alice, due 22 Dec 2026` | 04 |
+| Lend Directly, days = 1 (Bob, Animal Farm) | `Lent "Animal Farm" to Bob, due 23 Nov 2026` | 03 |
+| Lend Directly, days = 30 (Alice, Animal Farm) | `Lent "Animal Farm" to Alice, due 22 Dec 2026` | 04 |
 | Kobzar available copies before and after a return | `Before: 4 of 5 available, After: 5 of 5 available` | 05, 08 |
-| Return confirmation page | `Reader: Oleh Melynk (reader@library.com) Borrowed: 22 Nov 2026, 11:43 EET Due: 6 Dec 2026, 11:43 EET` | 06 |
-| Return recorded banner | `Return recorded: Kobzar is back in stock, and loan#8 is closed` | 07 |
-| Direct URL `/order/close/<id>/` of a closed loan | `Loan was already closed on 22 Nov 2026, 11:42 EET` | 09 |
-| Second submit of the same return (two tabs) | `Loan#2 was already closed. So nothing changed` | 10 |
+| Return confirmation page | `Reader: Oleh Melnyk (reader@library.com) Borrowed: 22 Nov 2026, 11:43 EET Due: 6 Dec 2026, 11:43 EET` | 06 |
+| Return recorded banner | `Return recorded: “Kobzar” is back in stock, and loan #8 is closed.` | 07 |
+| Direct URL `/order/close/<id>/` of a closed loan | `This loan was already closed on 22 Nov 2026, 11:42 EET` | 09 |
+| Second submit of the same return (two tabs) | `Loan #2 was already closed, so nothing changed.` | 10 |
 | Signed-out `GET /api/v1/order/` | **401 Unauthorized**, header `WWW-Authenticate: Session`, body `{"detail": "Authentication credentials were not provided."}` | 11 |
 | Reader opens `/order/lend/` | `Page not found` | 12 |
 
