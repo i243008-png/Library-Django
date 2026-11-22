@@ -104,7 +104,7 @@ two members' areas can be added here by them.
 | Direct URL `/order/close/<id>/` of a closed loan | `Loan was already closed on 22 Nov 2026, 11:42 EET` | 09 |
 | Second submit of the same return (two tabs) | `Loan#2 was already closed. So nothing changed` | 10 |
 | Signed-out `GET /api/v1/order/` | **401 Unauthorized**, header `WWW-Authenticate: Session`, body `{"detail": "Authentication credentials were not provided."}` | 11 |
-| Reader opens `/order/lend/` | ` Order list HTTP 404 Unauthorised` | 12 |
+| Reader opens `/order/lend/` | `Page not found` | 12 |
 
 ### 5.2 API checks (librarian session, browser console)
 
