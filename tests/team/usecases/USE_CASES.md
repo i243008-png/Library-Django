@@ -108,7 +108,7 @@ Rules for all six use cases:
 4. The system checks the days (1 to 30), that a copy is available, that the reader has no overdue loan and that the reader does not already hold the book.
 5. The system creates the loan with due date now plus the days.
 6. The system redirects to **All Orders** and shows `Lent “Animal Farm” to Bob Williams, due 23 Nov 2026.` (names and date as per the chosen data).
-7. The new loan appears in the table with status **Active Loan**.
+7. The new loan appears in the table with **Pending return** in the Returned At column and a **Record Return** button (on a narrow screen the card shows the status **Active Loan**).
 
 **Alternative flows (AF)**
 - AF1 Shortest loan: branches at MF step 2. The librarian enters 1 day. Ends: the loan is created with a due date one day ahead; same success message and postconditions.
@@ -127,7 +127,7 @@ Rules for all six use cases:
 
 | Flow | Playwright test | Assertions (result shown and postcondition) |
 | --- | --- | --- |
-| MF | `uc01_main_flow` | Banner text; loan listed as Active Loan; available copies down by 1 |
+| MF | `uc01_main_flow` | Banner text; loan row shows Pending return and a Record Return button; available copies down by 1 |
 | AF1 | `uc01_af1_one_day` | Due date one day ahead; available copies down by 1 |
 | AF2 | `uc01_af2_thirty_days` | Due date 30 days ahead; available copies down by 1 |
 | AF3 | `uc01_af3_from_book_page` | Book preselected; then as MF |
@@ -154,7 +154,7 @@ Rules for all six use cases:
 **Preconditions**
 - The app is at the documented baseline.
 - The librarian is signed in.
-- The loan is open (status **Active Loan**, no return date).
+- The loan is open (no return date: **Pending return** in the table, **Active Loan** on a narrow-screen card).
 
 **Postconditions (success)**
 - The loan has a return date and is closed.
@@ -166,13 +166,13 @@ Rules for all six use cases:
 - The loan and the available copies are unchanged.
 
 **Main flow (MF)**
-1. The librarian opens **All Orders** (`/order/all/`) and finds the open loan (status **Active Loan**).
+1. The librarian opens **All Orders** (`/order/all/`) and finds the open loan (**Pending return** in the Returned At column).
 2. The librarian clicks **Record Return**.
 3. The system shows `Record the return of “Kobzar”?` with the reader, the borrowed time and the due time.
 4. The librarian clicks **Yes, Record the Return**.
 5. The system sets the return time to now.
 6. The system redirects to **All Orders** and shows the success banner.
-7. The loan now shows a returned time and no **Record Return** button.
+7. The loan now shows its returned time and a **Closed** badge, and no **Record Return** button.
 
 **Alternative flows (AF)**
 - AF1 Not now: branches at MF step 4. The librarian clicks **Not Now**. Ends: back on **All Orders**, loan still open, available copies unchanged.
@@ -189,8 +189,8 @@ Rules for all six use cases:
 
 | Flow | Playwright test | Assertions (result shown and postcondition) |
 | --- | --- | --- |
-| MF | `uc02_main_flow` | Banner text; loan shows a returned time; Kobzar available 4 to 5 |
-| AF1 | `uc02_af1_not_now` | Back on All Orders; loan still Active Loan; available unchanged |
+| MF | `uc02_main_flow` | Banner text; loan row shows a returned time and Closed; Kobzar available 4 to 5 |
+| AF1 | `uc02_af1_not_now` | Back on All Orders; loan still shows Pending return; available unchanged |
 | AF2 | `uc02_af2_overdue_loan` | Loan closed; copy available again |
 | AF3 | `uc02_af3_reader_sees_returned` | My Orders shows the loan as returned |
 | EF1 | `uc02_ef1_closed_loan_page` | Already-closed sentence; no Yes button |
