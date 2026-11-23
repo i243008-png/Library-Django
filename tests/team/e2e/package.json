@@ -1,0 +1,14 @@
+{
+  "name": "library-django-team-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright use case tests for the SQE final project (Area 3)",
+  "scripts": {
+    "reset": "powershell -ExecutionPolicy Bypass -File ../baseline/reset.ps1",
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}
