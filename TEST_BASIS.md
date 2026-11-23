@@ -62,10 +62,10 @@ two members' areas can be added here by them.
 
 | ID | Type | Rule | Where in code | Test technique |
 | --- | --- | --- | --- | --- |
-| BR1 | Boundary / limit | Loan duration is an integer from **1 to 30 days** (default 14) | `IssueForm`, `LendForm` (`min_value=1`, `max_value=30`) | EP and 3-point BVA: 0, 1, 2 and 29, 30, 31 |
+| BR1 | Boundary / limit | Loan duration is an integer from **1 to 30 days** (default 14) | `IssueForm`, `LendForm` (`min_value=1`, `max_value=30`) | EP and 3-point BVA: 0, 1, 2 and 29, 30, 31. Evidence today: web form checks (5.1, evidence 01 to 04). Form unit tests to be added (Hafsa). |
 | BR2 | Boundary / limit | A loan can only start while available copies are **at least 1** | `check()` and `Order.save()` (`available_count <= 0` refuses) | BVA on available copies: 0 refused, 1 accepted; last-copy case |
 | BR3 | Decision, two Boolean conditions | A reader has a **blocking overdue loan** when the loan is open **and** its due date is in the past; this refuses any new lend | `check()`: `end_at__isnull=True`, `plated_end_at__lt=now` | Decision table below |
-| BR4 | State change | A loan moves Open to Returned when a return is recorded; recording again changes nothing; reopening an old loan (clearing the return date) needs a copy available | `_close_order`, `Order.save()` (`consumes_copy`), `OrderUpdateForm` | State transition testing, below |
+| BR4 | State change | A loan moves Open to Returned when a return is recorded; recording again changes nothing; reopening an old loan (clearing the return date) needs a copy available | `_close_order`, `Order.save()` (`consumes_copy`), `OrderUpdateForm` | State transition testing, below. Evidence today: manual check (5.1, evidence 09 and 10). Unit test for a repeated return to be added (Hafsa). |
 | BR5 | Decision (extra) | A reader cannot hold two open loans of the same book | `check()`: `already_on_loan` | EP |
 
 ### BR3 decision table (conditions: C1 loan is open, C2 due date is before now)
