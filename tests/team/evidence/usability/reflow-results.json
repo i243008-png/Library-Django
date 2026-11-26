@@ -1,0 +1,117 @@
+{
+  "run": "2026-11-26T11:38:05.089Z",
+  "results": [
+    {
+      "page": "my orders",
+      "width": 872,
+      "contentWidth": 872,
+      "windowWidth": 872,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "return page",
+      "width": 872,
+      "contentWidth": 872,
+      "windowWidth": 872,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "login page",
+      "width": 640,
+      "contentWidth": 640,
+      "windowWidth": 640,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "books catalogue",
+      "width": 640,
+      "contentWidth": 640,
+      "windowWidth": 640,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "lend form",
+      "width": 640,
+      "contentWidth": 640,
+      "windowWidth": 640,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "all orders",
+      "width": 640,
+      "contentWidth": 640,
+      "windowWidth": 640,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "my orders",
+      "width": 640,
+      "contentWidth": 640,
+      "windowWidth": 640,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "return page",
+      "width": 640,
+      "contentWidth": 640,
+      "windowWidth": 640,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "login page",
+      "width": 320,
+      "contentWidth": 320,
+      "windowWidth": 320,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "books catalogue",
+      "width": 320,
+      "contentWidth": 320,
+      "windowWidth": 320,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "lend form",
+      "width": 320,
+      "contentWidth": 320,
+      "windowWidth": 320,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "all orders",
+      "width": 320,
+      "contentWidth": 320,
+      "windowWidth": 320,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "my orders",
+      "width": 320,
+      "contentWidth": 320,
+      "windowWidth": 320,
+      "fits": true,
+      "widestElements": []
+    },
+    {
+      "page": "return page",
+      "width": 320,
+      "contentWidth": 320,
+      "windowWidth": 320,
+      "fits": true,
+      "widestElements": []
+    }
+  ]
+}
