@@ -5,10 +5,13 @@
   "description": "Playwright use case tests for the SQE final project (Area 3)",
   "scripts": {
     "reset": "powershell -ExecutionPolicy Bypass -File ../baseline/reset.ps1",
-    "test": "playwright test",
+    "test": "playwright test --project=e2e",
+    "a11y": "playwright test --project=a11y",
     "report": "playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "1.65.1"
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.65.1",
+    "@types/node": "^26.6.6"
   }
 }

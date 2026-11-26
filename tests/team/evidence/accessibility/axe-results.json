@@ -1,0 +1,82 @@
+{
+  "run": "2026-11-26T21:33:52.613Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "coverage": [
+    {
+      "page": "login page",
+      "rulesPassed": 19,
+      "rulesNotApplicable": 45,
+      "needsReview": []
+    },
+    {
+      "page": "books catalogue",
+      "rulesPassed": 26,
+      "rulesNotApplicable": 38,
+      "needsReview": [
+        {
+          "rule": "color-contrast",
+          "elements": [
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"1\"][href=\"/book/1/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"2\"][href=\"/book/2/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"3\"][href=\"/book/3/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"4\"][href=\"/book/4/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"5\"][href=\"/book/5/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"6\"][href=\"/book/6/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"7\"][href=\"/book/7/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"8\"][href=\"/book/8/\"] > span[aria-hidden=\"true\"]",
+            ".text-right.whitespace-nowrap > .btn-sm-secondary[data-book-id=\"9\"][href=\"/book/9/\"] > span[aria-hidden=\"true\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "lend form",
+      "rulesPassed": 24,
+      "rulesNotApplicable": 40,
+      "needsReview": []
+    },
+    {
+      "page": "lend form with error",
+      "rulesPassed": 24,
+      "rulesNotApplicable": 40,
+      "needsReview": []
+    },
+    {
+      "page": "lend form at 375 px",
+      "rulesPassed": 24,
+      "rulesNotApplicable": 40,
+      "needsReview": []
+    },
+    {
+      "page": "all orders",
+      "rulesPassed": 23,
+      "rulesNotApplicable": 41,
+      "needsReview": []
+    },
+    {
+      "page": "return confirmation",
+      "rulesPassed": 23,
+      "rulesNotApplicable": 41,
+      "needsReview": []
+    },
+    {
+      "page": "my orders",
+      "rulesPassed": 18,
+      "rulesNotApplicable": 46,
+      "needsReview": []
+    },
+    {
+      "page": "404 page",
+      "rulesPassed": 9,
+      "rulesNotApplicable": 55,
+      "needsReview": []
+    }
+  ],
+  "findings": []
+}
