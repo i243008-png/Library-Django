@@ -1,0 +1,7 @@
+id,title,category,severity,priority,status,found_week,reopened,linked_risk,related_req,github_issue
+DEF-01,Borrow without book returns 500,Error handling,High,P1,New,1,no,TBD,FR-B7,#9
+DEF-02,Decimal book id truncated,Validation,Medium,P2,New,1,no,TBD,FR-B7,#10
+DEF-03,Past due date accepted,Validation,Medium,P2,New,1,no,TBD,FR-B7,#11
+DEF-04,No maximum loan period in API,Validation,Medium,P2,New,1,no,TBD,FR-B8,#12
+DEF-05,Return before loan start accepted,Validation,Medium,P2,New,1,no,TBD,FR-R6,#13
+DEF-06,Inconsistent reopen error style,Error handling,Low,P3,New,1,no,TBD,FR-R4,#14

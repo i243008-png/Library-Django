@@ -1,0 +1,12 @@
+{
+  "title": "DEF-03: Past due date accepted by the API",
+  "effect": "Loan overdue at creation",
+  "causes": {
+    "Requirements": ["Loan period limit not stated for the API"],
+    "Design/Code": ["Serializer has no date rule", "Rule only in the desk form"],
+    "Testing": ["No test sends a past date to the API"],
+    "Environment/Data": ["Seed data uses future dates only"],
+    "Process": ["Form and API written separately, no cross-check"],
+    "People/Knowledge": ["Assumed the form rules also protect the API"]
+  }
+}

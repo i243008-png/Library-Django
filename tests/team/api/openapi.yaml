@@ -1,0 +1,268 @@
+openapi: 3.0.3
+info:
+  title: Library Django - Orders API (team spec)
+  version: 1.0.0
+  description: |
+    Team-written OpenAPI spec for the borrow / return workflows of Library-Django.
+    Written from the source (order/api_views.py, order/serializers.py, order/services.py)
+    and corrected against the running app. Auth is Django session login + CSRF header.
+    Vendor extensions used by the test-data generator:
+      x-test-target      name of the API operation the schema is the request body of
+      x-success-status   status code expected for a fully valid request
+      x-foreign-key      integer is an id of another record (no numeric business limit)
+      x-baseline         valid value used for this field while another field is varied
+servers:
+  - url: http://localhost:8000
+security:
+  - sessionAuth: []
+paths:
+  /api/v1/order/:
+    get:
+      summary: List loans (librarian sees all, reader sees own)
+      operationId: listOrders
+      responses:
+        '200': {description: List of loans, content: {application/json: {schema: {type: array, items: {$ref: '#/components/schemas/Order'}}}}}
+        '401': {description: Not signed in}
+    post:
+      summary: BORROW - lend a book to a reader (librarian only)
+      operationId: createOrder
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/OrderCreate'}
+      responses:
+        '201': {description: Loan created, content: {application/json: {schema: {$ref: '#/components/schemas/Order'}}}}
+        '400': {description: A field is invalid (body names the field)}
+        '401': {description: Not signed in}
+        '403': {description: Signed in but not a librarian}
+        '409': {description: A business rule refused the loan, content: {application/json: {schema: {$ref: '#/components/schemas/Refusal'}}}}
+  /api/v1/order/{id}/:
+    parameters:
+      - {name: id, in: path, required: true, schema: {type: integer, minimum: 1}}
+    get:
+      summary: Read one loan
+      operationId: getOrder
+      responses:
+        '200': {description: The loan, content: {application/json: {schema: {$ref: '#/components/schemas/Order'}}}}
+        '401': {description: Not signed in}
+        '404': {description: No such loan, or it belongs to another reader}
+    patch:
+      summary: RETURN - record the return by setting end_at (librarian only)
+      operationId: returnOrder
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/OrderReturn'}
+      responses:
+        '200': {description: Loan updated, content: {application/json: {schema: {$ref: '#/components/schemas/Order'}}}}
+        '400': {description: Invalid field, or reopening a loan when no copy is available}
+        '401': {description: Not signed in}
+        '403': {description: Not a librarian}
+        '404': {description: No such loan}
+    delete:
+      summary: Delete a loan (librarian only)
+      operationId: deleteOrder
+      responses:
+        '204': {description: Deleted}
+        '401': {description: Not signed in}
+        '403': {description: Not a librarian}
+        '404': {description: No such loan}
+  /api/v1/user/{user_id}/order/:
+    parameters:
+      - {name: user_id, in: path, required: true, schema: {type: integer, minimum: 1}}
+    get:
+      summary: Loans of one account (that account or a librarian)
+      operationId: listUserOrders
+      responses:
+        '200': {description: List of that account's loans, content: {application/json: {schema: {type: array, items: {$ref: '#/components/schemas/Order'}}}}}
+        '401': {description: Not signed in}
+        '404': {description: Another reader's account}
+  /api/v1/book/:
+    get:
+      summary: List books with available_count
+      operationId: listBooks
+      responses:
+        '200': {description: Books, content: {application/json: {schema: {type: array, items: {$ref: '#/components/schemas/Book'}}}}}
+        '401': {description: Not signed in}
+    post:
+      summary: Create a book (librarian only) - used to build test stock
+      operationId: createBook
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/BookCreate'}
+      responses:
+        '201': {description: Book created, content: {application/json: {schema: {$ref: '#/components/schemas/Book'}}}}
+        '400': {description: Invalid field}
+        '401': {description: Not signed in}
+        '403': {description: Not a librarian}
+  /api/v1/book/{id}/:
+    parameters:
+      - {name: id, in: path, required: true, schema: {type: integer, minimum: 1}}
+    get:
+      summary: Read one book - the SHARED RECORD (available_count)
+      operationId: getBook
+      responses:
+        '200': {description: The book, content: {application/json: {schema: {$ref: '#/components/schemas/Book'}}}}
+        '401': {description: Not signed in}
+        '404': {description: No such book}
+  /api/v1/user/:
+    get:
+      summary: List accounts (librarian only) - used to look up reader ids
+      operationId: listUsers
+      responses:
+        '200': {description: Accounts}
+        '401': {description: Not signed in}
+        '403': {description: Not a librarian}
+  /api/v1/reservation/:
+    post:
+      summary: Reserve a book for the signed-in reader
+      operationId: createReservation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/ReservationCreate'}
+      responses:
+        '201': {description: Reservation created}
+        '400': {description: Invalid field}
+        '401': {description: Not signed in}
+        '409': {description: Rule refused it, content: {application/json: {schema: {$ref: '#/components/schemas/Refusal'}}}}
+  /api/v1/reservation/{id}/issue/:
+    parameters:
+      - {name: id, in: path, required: true, schema: {type: integer, minimum: 1}}
+    post:
+      summary: BORROW (via reservation) - issue a reservation as a loan of 1-30 days (librarian only)
+      operationId: issueReservation
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/IssueRequest'}
+      responses:
+        '201': {description: Reservation issued and loan started}
+        '400': {description: days invalid}
+        '401': {description: Not signed in}
+        '403': {description: Not a librarian}
+        '404': {description: No such reservation}
+        '409': {description: Rule refused it (for example already_issued), content: {application/json: {schema: {$ref: '#/components/schemas/Refusal'}}}}
+  /api/v1/reservation/{id}/cancel/:
+    parameters:
+      - {name: id, in: path, required: true, schema: {type: integer, minimum: 1}}
+    post:
+      summary: Cancel an active reservation (its reader needs no reason)
+      operationId: cancelReservation
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/CancelRequest'}
+      responses:
+        '200': {description: Cancelled}
+        '400': {description: reason invalid}
+        '401': {description: Not signed in}
+        '404': {description: No such reservation}
+        '409': {description: No longer active}
+components:
+  securitySchemes:
+    sessionAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid
+      description: Log in at /authentication/login/ first; send X-CSRFToken on POST/PATCH/DELETE.
+  schemas:
+    OrderCreate:
+      type: object
+      x-test-target: create_order
+      x-success-status: 201
+      required: [user, book, plated_end_at]
+      properties:
+        user:
+          type: integer
+          minimum: 1
+          x-foreign-key: true
+          x-baseline: $REAL_USER
+        book:
+          type: integer
+          minimum: 1
+          x-foreign-key: true
+          x-baseline: $REAL_BOOK
+        plated_end_at:
+          type: string
+          format: date-time
+          x-baseline: $FUTURE_ISO
+        end_at:
+          type: string
+          format: date-time
+          nullable: true
+          x-baseline: $NULL
+    OrderReturn:
+      type: object
+      x-test-target: return_loan
+      x-success-status: 200
+      properties:
+        end_at:
+          type: string
+          format: date-time
+          nullable: true
+          x-baseline: $NOW_ISO
+    IssueRequest:
+      type: object
+      x-test-target: issue_reservation
+      x-success-status: 201
+      properties:
+        days:
+          type: integer
+          minimum: 1
+          maximum: 30
+          default: 14
+          x-baseline: 14
+    CancelRequest:
+      type: object
+      properties:
+        reason:
+          type: string
+          maxLength: 500
+    ReservationCreate:
+      type: object
+      required: [book]
+      properties:
+        book: {type: integer, minimum: 1}
+    BookCreate:
+      type: object
+      required: [name]
+      properties:
+        name: {type: string, maxLength: 128}
+        description: {type: string, maxLength: 256}
+        count: {type: integer, minimum: 0, default: 10}
+    Book:
+      type: object
+      required: [id, name, count, available_count]
+      properties:
+        id: {type: integer}
+        name: {type: string}
+        description: {type: string}
+        count: {type: integer, minimum: 0}
+        available_count: {type: integer, minimum: 0}
+        authors: {type: array, items: {type: integer}}
+    Order:
+      type: object
+      required: [id, user, book, created_at, end_at, plated_end_at]
+      properties:
+        id: {type: integer}
+        user: {type: integer, nullable: true}
+        book: {type: integer}
+        created_at: {type: string, format: date-time}
+        end_at: {type: string, format: date-time, nullable: true}
+        plated_end_at: {type: string, format: date-time}
+    Refusal:
+      type: object
+      required: [code, detail]
+      properties:
+        code:
+          type: string
+          enum: [overdue_loan, already_on_loan, already_reserved, reservation_limit, no_copy_available, reservation_expired, already_issued, not_active, reader_deleted]
+        detail: {type: string}

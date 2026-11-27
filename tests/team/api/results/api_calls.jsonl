@@ -1,0 +1,704 @@
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 400, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "anonymous", "method": "GET", "path": "/api/v1/order/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "POST", "path": "/api/v1/order/", "status": 401, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "reader", "method": "POST", "path": "/api/v1/order/", "status": 403, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "bob", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 403, "body_fields": ["end_at"]}
+{"role": "bob", "method": "DELETE", "path": "/api/v1/order/{id}/", "status": 403, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "bob", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "bob", "method": "GET", "path": "/api/v1/order/{id}/", "status": 404, "body_fields": []}
+{"role": "bob", "method": "GET", "path": "/api/v1/user/{user_id}/order/", "status": 404, "body_fields": []}
+{"role": "bob", "method": "GET", "path": "/api/v1/user/{user_id}/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 409, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 201, "body_fields": ["days"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 409, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/{user_id}/order/", "status": 200, "body_fields": []}
+{"role": "bob", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/{user_id}/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 500, "body_fields": ["end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 400, "body_fields": ["book", "end_at", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 400, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 400, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 400, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 201, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 400, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/9/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 400, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/10/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 400, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/11/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 201, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 201, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 201, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 201, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 400, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/16/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 400, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/17/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 400, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/18/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 400, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/19/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 201, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "anonymous", "method": "GET", "path": "/api/v1/order/{id}/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 401, "body_fields": ["end_at"]}
+{"role": "anonymous", "method": "DELETE", "path": "/api/v1/order/{id}/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "GET", "path": "/api/v1/user/{user_id}/order/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "GET", "path": "/api/v1/book/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "POST", "path": "/api/v1/book/", "status": 401, "body_fields": ["name"]}
+{"role": "anonymous", "method": "GET", "path": "/api/v1/book/{id}/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "GET", "path": "/api/v1/user/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "POST", "path": "/api/v1/reservation/", "status": 401, "body_fields": ["book"]}
+{"role": "anonymous", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 401, "body_fields": []}
+{"role": "anonymous", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 401, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "reader", "method": "POST", "path": "/api/v1/book/", "status": 403, "body_fields": ["count", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "reader", "method": "GET", "path": "/api/v1/user/", "status": 403, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 403, "body_fields": ["days"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/21/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 404, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 404, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "DELETE", "path": "/api/v1/order/{id}/", "status": 404, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 404, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/issue/", "status": 404, "body_fields": ["days"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 404, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 400, "body_fields": ["count", "description"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 400, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 400, "body_fields": ["reason"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/reservation/22/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "DELETE", "path": "/api/v1/order/{id}/", "status": 204, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/{id}/", "status": 404, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 404, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 409, "body_fields": ["book"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/", "status": 201, "body_fields": ["book"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 200, "body_fields": ["reason"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/book/{id}/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "alice", "method": "POST", "path": "/api/v1/reservation/{id}/cancel/", "status": 409, "body_fields": []}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/user/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "POST", "path": "/api/v1/book/", "status": 201, "body_fields": ["count", "description", "name"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "POST", "path": "/api/v1/order/", "status": 201, "body_fields": ["book", "plated_end_at", "user"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 400, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "GET", "path": "/api/v1/order/", "status": 200, "body_fields": []}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}
+{"role": "librarian", "method": "PATCH", "path": "/api/v1/order/{id}/", "status": 200, "body_fields": ["end_at"]}

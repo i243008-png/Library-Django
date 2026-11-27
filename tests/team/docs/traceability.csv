@@ -1,0 +1,16 @@
+req_id,requirement,business_rule,test_level,tests,status
+FR-B1,Lend an available book,BR2,API+UI,"test_borrow_create_order[valid cases]; test_br2_decision_table[F-F]; test_borrow_then_return_read_back",Passed
+FR-B2,Lending reduces available copies,BR1,API,"test_br1_availability_boundary; test_borrow_then_return_read_back",Passed
+FR-B3,Refuse when no copy available,BR1,API+UI,"test_br1_availability_boundary[0/1/2]; UC-05 EF3",Passed
+FR-B4,Refuse when reader has overdue loan,BR2,API+UI,"test_br2_decision_table[T-F]; test_br2_decision_table[T-T]; UC-05 EF2",Passed
+FR-B5,Refuse when reader holds same book,BR2,API+UI,"test_br2_decision_table[F-T]; test_repeat_borrow_creates_one_loan; test_simultaneous_duplicate_borrow_creates_one_loan; UC-05 EF1",Passed
+FR-B6,Only librarians may lend,BR4,API,"test_br4_anonymous_is_refused; test_br4_reader_cannot_lend; test_401_when_not_signed_in; test_403_*",Passed
+FR-B7,Invalid borrow input refused (400),-,API,"test_borrow_create_order[invalid cases]; open defects DEF-01 DEF-02 DEF-03",Failed
+FR-B8,Issue reservation 1-30 days; repeat issue no duplicate,BR1,API+UI,"test_issue_reservation_days[all]; test_repeat_issue_reservation_starts_one_loan; UC-05 AF1 AF2 EF4; open defect DEF-04",Failed
+FR-R1,Return sets end_at and closes loan,BR3,API+UI,"test_br3_open_to_returned; test_return_patch_end_at[return_loan-01]; UC-06 AF1",Passed
+FR-R2,Return increases available copies,BR3,API+UI,"test_br3_open_to_returned; test_borrow_then_return_read_back; UC-06 AF1",Passed
+FR-R3,Repeated return changes nothing more,BR3,API,"test_br3_returned_to_returned_changes_nothing_more",Passed
+FR-R4,Reopen only when a copy is free,BR3,API+UI,"test_br3_reopen_allowed_when_a_copy_is_free; test_br3_reopen_refused_when_no_copy_is_free; UC-06 AF2 EF1; low defect DEF-06 (error style only)",Passed
+FR-R5,Reader sees only own loans,BR4,API,"test_br4_reader_sees_only_own_loans",Passed
+FR-R6,Invalid end_at refused (400),-,API,"test_return_patch_end_at[invalid cases]; open defect DEF-05",Failed
+FR-R7,Only librarians change/delete a loan,BR4,API+UI,"test_br4_reader_cannot_return_or_delete; UC-06 EF3",Passed

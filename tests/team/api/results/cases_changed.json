@@ -1,0 +1,545 @@
+{
+  "create_order": {
+    "schema": "OrderCreate",
+    "success_status": 201,
+    "baseline": {
+      "user": "$REAL_USER",
+      "book": "$REAL_BOOK",
+      "plated_end_at": "$FUTURE_ISO",
+      "end_at": "$NULL"
+    },
+    "required": [
+      "book",
+      "plated_end_at",
+      "user"
+    ],
+    "cases": [
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "valid id of an existing record",
+        "value": "$REAL_USER",
+        "valid": true,
+        "note": "real id",
+        "id": "create_order-01",
+        "expect_status": 201
+      },
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "invalid: id of a record that does not exist",
+        "value": 999999999,
+        "valid": false,
+        "note": "unknown id",
+        "id": "create_order-02",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "invalid: below minimum 1",
+        "value": 0,
+        "valid": false,
+        "note": "below minimum",
+        "id": "create_order-03",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "invalid: negative id",
+        "value": -5,
+        "valid": false,
+        "note": "negative",
+        "id": "create_order-04",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "invalid: text instead of a number",
+        "value": "abc",
+        "valid": false,
+        "note": "wrong type",
+        "id": "create_order-05",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "invalid: decimal number",
+        "value": 14.5,
+        "valid": false,
+        "note": "not an integer",
+        "id": "create_order-06",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "invalid: null",
+        "value": "$NULL",
+        "valid": false,
+        "note": "null not allowed",
+        "id": "create_order-07",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "user",
+        "technique": "EP",
+        "class": "invalid: field missing",
+        "value": "$MISSING",
+        "valid": false,
+        "note": "required",
+        "id": "create_order-08",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "valid id of an existing record",
+        "value": "$REAL_BOOK",
+        "valid": true,
+        "note": "real id",
+        "id": "create_order-09",
+        "expect_status": 201
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "invalid: id of a record that does not exist",
+        "value": 999999999,
+        "valid": false,
+        "note": "unknown id",
+        "id": "create_order-10",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "invalid: below minimum 1",
+        "value": 0,
+        "valid": false,
+        "note": "below minimum",
+        "id": "create_order-11",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "invalid: negative id",
+        "value": -5,
+        "valid": false,
+        "note": "negative",
+        "id": "create_order-12",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "invalid: text instead of a number",
+        "value": "abc",
+        "valid": false,
+        "note": "wrong type",
+        "id": "create_order-13",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "invalid: decimal number",
+        "value": 14.5,
+        "valid": false,
+        "note": "not an integer",
+        "id": "create_order-14",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "invalid: null",
+        "value": "$NULL",
+        "valid": false,
+        "note": "null not allowed",
+        "id": "create_order-15",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "book",
+        "technique": "EP",
+        "class": "invalid: field missing",
+        "value": "$MISSING",
+        "valid": false,
+        "note": "required",
+        "id": "create_order-16",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "plated_end_at",
+        "technique": "EP",
+        "class": "valid: ISO date-time",
+        "value": "$FUTURE_ISO",
+        "valid": true,
+        "note": "well-formed",
+        "id": "create_order-17",
+        "expect_status": 201
+      },
+      {
+        "target": "create_order",
+        "field": "plated_end_at",
+        "technique": "EP",
+        "class": "invalid: not a date",
+        "value": "not-a-date",
+        "valid": false,
+        "note": "malformed",
+        "id": "create_order-18",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "plated_end_at",
+        "technique": "EP",
+        "class": "invalid: impossible date",
+        "value": "2026-13-45T00:00:00Z",
+        "valid": false,
+        "note": "month 13",
+        "id": "create_order-19",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "plated_end_at",
+        "technique": "EP",
+        "class": "invalid: number instead of text",
+        "value": 12345,
+        "valid": false,
+        "note": "wrong type",
+        "id": "create_order-20",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "plated_end_at",
+        "technique": "EP",
+        "class": "invalid: null",
+        "value": "$NULL",
+        "valid": false,
+        "note": "null not allowed",
+        "id": "create_order-21",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "plated_end_at",
+        "technique": "EP",
+        "class": "invalid: field missing",
+        "value": "$MISSING",
+        "valid": false,
+        "note": "required",
+        "id": "create_order-22",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "valid: ISO date-time",
+        "value": "$NULL",
+        "valid": true,
+        "note": "well-formed",
+        "id": "create_order-23",
+        "expect_status": 201
+      },
+      {
+        "target": "create_order",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "invalid: not a date",
+        "value": "not-a-date",
+        "valid": false,
+        "note": "malformed",
+        "id": "create_order-24",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "invalid: impossible date",
+        "value": "2026-13-45T00:00:00Z",
+        "valid": false,
+        "note": "month 13",
+        "id": "create_order-25",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "invalid: number instead of text",
+        "value": 12345,
+        "valid": false,
+        "note": "wrong type",
+        "id": "create_order-26",
+        "expect_status": 400
+      },
+      {
+        "target": "create_order",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "valid: field missing",
+        "value": "$MISSING",
+        "valid": true,
+        "note": "optional",
+        "id": "create_order-27",
+        "expect_status": 201
+      }
+    ]
+  },
+  "return_loan": {
+    "schema": "OrderReturn",
+    "success_status": 200,
+    "baseline": {
+      "end_at": "$NOW_ISO"
+    },
+    "required": [],
+    "cases": [
+      {
+        "target": "return_loan",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "valid: ISO date-time",
+        "value": "$NOW_ISO",
+        "valid": true,
+        "note": "well-formed",
+        "id": "return_loan-01",
+        "expect_status": 200
+      },
+      {
+        "target": "return_loan",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "invalid: not a date",
+        "value": "not-a-date",
+        "valid": false,
+        "note": "malformed",
+        "id": "return_loan-02",
+        "expect_status": 400
+      },
+      {
+        "target": "return_loan",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "invalid: impossible date",
+        "value": "2026-13-45T00:00:00Z",
+        "valid": false,
+        "note": "month 13",
+        "id": "return_loan-03",
+        "expect_status": 400
+      },
+      {
+        "target": "return_loan",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "invalid: number instead of text",
+        "value": 12345,
+        "valid": false,
+        "note": "wrong type",
+        "id": "return_loan-04",
+        "expect_status": 400
+      },
+      {
+        "target": "return_loan",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "valid: null",
+        "value": "$NULL",
+        "valid": true,
+        "note": "nullable",
+        "id": "return_loan-05",
+        "expect_status": 200
+      },
+      {
+        "target": "return_loan",
+        "field": "end_at",
+        "technique": "EP",
+        "class": "valid: field missing",
+        "value": "$MISSING",
+        "valid": true,
+        "note": "optional",
+        "id": "return_loan-06",
+        "expect_status": 200
+      }
+    ]
+  },
+  "issue_reservation": {
+    "schema": "IssueRequest",
+    "success_status": 201,
+    "baseline": {
+      "days": 14
+    },
+    "required": [],
+    "cases": [
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "EP",
+        "class": "valid: inside the range",
+        "value": 14,
+        "valid": true,
+        "note": "typical value",
+        "id": "issue_reservation-01",
+        "expect_status": 201
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "EP",
+        "class": "invalid: far below range",
+        "value": -7,
+        "valid": false,
+        "note": "below range",
+        "id": "issue_reservation-02",
+        "expect_status": 400
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "EP",
+        "class": "invalid: far above range",
+        "value": 31,
+        "valid": false,
+        "note": "above range",
+        "id": "issue_reservation-03",
+        "expect_status": 400
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "BVA",
+        "class": "just below min (3)",
+        "value": 2,
+        "valid": false,
+        "note": "just below the min limit",
+        "id": "issue_reservation-04",
+        "expect_status": 400
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "BVA",
+        "class": "at min (3)",
+        "value": 3,
+        "valid": true,
+        "note": "at the min limit",
+        "id": "issue_reservation-05",
+        "expect_status": 201
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "BVA",
+        "class": "just above min (3)",
+        "value": 4,
+        "valid": true,
+        "note": "just above the min limit",
+        "id": "issue_reservation-06",
+        "expect_status": 201
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "BVA",
+        "class": "just below max (21)",
+        "value": 20,
+        "valid": true,
+        "note": "just below the max limit",
+        "id": "issue_reservation-07",
+        "expect_status": 201
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "BVA",
+        "class": "at max (21)",
+        "value": 21,
+        "valid": true,
+        "note": "at the max limit",
+        "id": "issue_reservation-08",
+        "expect_status": 201
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "BVA",
+        "class": "just above max (21)",
+        "value": 22,
+        "valid": false,
+        "note": "just above the max limit",
+        "id": "issue_reservation-09",
+        "expect_status": 400
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "EP",
+        "class": "invalid: text instead of a number",
+        "value": "abc",
+        "valid": false,
+        "note": "wrong type",
+        "id": "issue_reservation-10",
+        "expect_status": 400
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "EP",
+        "class": "invalid: decimal number",
+        "value": 14.5,
+        "valid": false,
+        "note": "not an integer",
+        "id": "issue_reservation-11",
+        "expect_status": 400
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "EP",
+        "class": "invalid: null",
+        "value": "$NULL",
+        "valid": false,
+        "note": "null not allowed",
+        "id": "issue_reservation-12",
+        "expect_status": 400
+      },
+      {
+        "target": "issue_reservation",
+        "field": "days",
+        "technique": "EP",
+        "class": "valid: field missing (default used)",
+        "value": "$MISSING",
+        "valid": true,
+        "note": "optional",
+        "id": "issue_reservation-13",
+        "expect_status": 201
+      }
+    ]
+  }
+}

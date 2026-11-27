@@ -1,0 +1,12 @@
+{
+  "title": "EXAMPLE ONLY - replace with your real defect",
+  "effect": "Past due date accepted",
+  "causes": {
+    "Requirements": ["No limit stated for plated_end_at"],
+    "Design/Code": ["Serializer has no validator"],
+    "Testing": ["Upstream tests only use the desk form"],
+    "Environment/Data": ["Seed data always uses future dates"],
+    "Process": ["No API review against the form rules"],
+    "People/Knowledge": ["Form and API written separately"]
+  }
+}

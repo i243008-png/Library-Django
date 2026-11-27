@@ -1,0 +1,12 @@
+{
+  "title": "DEF-01: Missing 'book' returns 500 instead of 400",
+  "effect": "Server crash (500)",
+  "causes": {
+    "Requirements": ["No requirement said every field must be checked"],
+    "Design/Code": ["Order.book has default=None", "Serializer treats book as optional", "View reads validated_data['book'] without checking"],
+    "Testing": ["Upstream tests never send a request with a field missing"],
+    "Environment/Data": ["Seed data always supplies every field"],
+    "Process": ["No review of model defaults against API rules"],
+    "People/Knowledge": ["DRF rule: a field with a default is not required"]
+  }
+}
